@@ -1,0 +1,71 @@
+2026-02-16 13:42:54,822 - INFO - Loading dataset
+2026-02-16 13:42:54,847 - INFO - Dataset loaded successfully
+2026-02-16 13:42:54,847 - INFO - Text preprocessing completed
+2026-02-16 13:42:54,860 - INFO - Model training completed
+2026-02-16 13:42:54,860 - INFO - Classification Report:
+2026-02-16 13:42:54,868 - INFO - 
+                 precision    recall  f1-score   support
+
+   Data Science       1.00      1.00      1.00         5
+             HR       0.75      1.00      0.86         3
+      Marketing       1.00      1.00      1.00         2
+Web Development       1.00      0.83      0.91         6
+
+       accuracy                           0.94        16
+      macro avg       0.94      0.96      0.94        16
+   weighted avg       0.95      0.94      0.94        16
+
+2026-02-16 13:44:02,691 - INFO - Loading dataset
+2026-02-16 13:44:02,694 - INFO - Dataset loaded successfully
+2026-02-16 13:44:02,696 - INFO - Text preprocessing completed
+2026-02-16 13:44:02,704 - INFO - Model training completed
+2026-02-16 13:44:02,705 - INFO - Classification Report:
+2026-02-16 13:44:02,709 - INFO - 
+                 precision    recall  f1-score   support
+
+   Data Science       1.00      1.00      1.00         5
+             HR       0.75      1.00      0.86         3
+      Marketing       1.00      1.00      1.00         2
+Web Development       1.00      0.83      0.91         6
+
+       accuracy                           0.94        16
+      macro avg       0.94      0.96      0.94        16
+   weighted avg       0.95      0.94      0.94        16
+
+2026-02-16 13:52:17,494 - INFO - Loading dataset
+2026-02-16 13:52:17,500 - INFO - Dataset loaded successfully
+2026-02-16 13:52:17,500 - INFO - Text preprocessing completed
+2026-02-16 13:52:17,502 - INFO - Model training completed
+2026-02-16 13:52:17,502 - INFO - Classification Report:
+2026-02-16 13:52:17,511 - INFO - 
+                 precision    recall  f1-score   support
+
+   Data Science       1.00      1.00      1.00         5
+             HR       0.75      1.00      0.86         3
+      Marketing       1.00      1.00      1.00         2
+Web Development       1.00      0.83      0.91         6
+
+       accuracy                           0.94        16
+      macro avg       0.94      0.96      0.94        16
+   weighted avg       0.95      0.94      0.94        16
+
+2026-02-16 13:52:17,511 - INFO - Test Accuracy: 0.9375
+2026-02-16 13:53:46,490 - INFO - Loading dataset
+2026-02-16 13:53:46,495 - INFO - Dataset loaded successfully
+2026-02-16 13:53:46,497 - INFO - Text preprocessing completed
+2026-02-16 13:53:46,505 - INFO - Model training completed
+2026-02-16 13:53:46,507 - INFO - Classification Report:
+2026-02-16 13:53:46,513 - INFO - 
+                 precision    recall  f1-score   support
+
+   Data Science       1.00      1.00      1.00         5
+             HR       0.75      1.00      0.86         3
+      Marketing       1.00      1.00      1.00         2
+Web Development       1.00      0.83      0.91         6
+
+       accuracy                           0.94        16
+      macro avg       0.94      0.96      0.94        16
+   weighted avg       0.95      0.94      0.94        16
+
+2026-02-16 13:53:46,514 - INFO - Test Accuracy: 0.9375
+2026-02-16 13:53:46,515 - INFO - Predicted Category:, Web Development
