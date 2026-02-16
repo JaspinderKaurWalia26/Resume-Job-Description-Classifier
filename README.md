@@ -9,29 +9,26 @@ This project is a Resume Text Classification system that categorizes resumes int
 RESUME_TEXT_CLASSIFIER/
 │
 ├── data/
-│   ├── resume.csv      #dataset
-│   └── confusion_matrix.png   # confusion matrix
+│   ├── resume.csv                # Dataset 
+│   └── confusion_matrix.png      # Confusion matrix after testing
 │
 ├── logs/
-│   └── app.log  # log file
+│   └── app.log                   # Log file 
 │
 ├── src/
 │   └── Resume_Description_Classifier/
-│       ├── __init__.py    # marks the initialization
-│       ├── logger.py      # logging setup
-│       ├── main.py        # main execution file
-│       ├── predict.py     # sample text input prediction function
-│       ├── preprocessing.py  # preprocessing 
-│       └── train_model.py    # model training
+│       ├── __init__.py           # Marks the package initialization
+│       ├── logger.py             # Logging setup
+│       ├── main.py               # Main execution script
+│       ├── predict.py            # Function for predicting categories from sample text
+│       ├── preprocessing.py      # Text preprocessing functions
+│       └── train_model.py        # Model training and evaluation
 │
-└── README.md   # project documentation
+├── README.md                     # Project documentation
+└── requirements.txt              # Python dependencies
+
 ```
 ---
-
----
-
----
-
 ## Project Deliverables
 
 1. **Python Implementation**
@@ -79,14 +76,36 @@ RESUME_TEXT_CLASSIFIER/
    - The function returns the predicted category based on trained model output.
 
 ---
-## How to Run the Project
+## How to Run
 
-1. Install required libraries:
-   ```bash
-   pip install pandas nltk scikit-learn matplotlib
-   ```
-2. Run the main file:
-   ```bash
-   python -m src.Resume_Description_Classifier.main 
-   ```
+### 1. Clone the repository
+```
+git clone https://github.com/JaspinderKaurWalia26/Resume-Job-Description-Classifier.git
+cd Resume-Job-Description-Classifier
+```
+### 2. Create a virtual environment (optional)
+```
+python -m venv venv
+```
+### 3. Activate the virtual environment
+- Windows:
+```
+venv\Scripts\activate
+```
+- Linux/Mac:
+```
+source venv/bin/activate
+```
+### 4. Install dependencies
+```
+pip install -r requirements.txt
+```
+### 5. Run the program
+```
+python -m src.Resume_Description_Classifier.main 
+```
+### 6. Check outputs
 
+- Confusion Matrix: data/confusion_matrix.png
+
+- Logs: logs/app.log

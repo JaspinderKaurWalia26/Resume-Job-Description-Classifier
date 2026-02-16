@@ -69,3 +69,43 @@ Web Development       1.00      0.83      0.91         6
 
 2026-02-16 13:53:46,514 - INFO - Test Accuracy: 0.9375
 2026-02-16 13:53:46,515 - INFO - Predicted Category:, Web Development
+2026-02-16 16:26:48,381 - INFO - Loading dataset
+2026-02-16 16:26:48,393 - INFO - Dataset loaded successfully
+2026-02-16 16:28:47,988 - INFO - Loading dataset
+2026-02-16 16:28:47,988 - INFO - Dataset loaded successfully
+2026-02-16 16:28:47,988 - INFO - Text preprocessing completed
+2026-02-16 16:28:48,024 - INFO - Model training completed
+2026-02-16 16:28:48,024 - INFO - Classification Report:
+2026-02-16 16:28:48,024 - INFO - 
+                 precision    recall  f1-score   support
+
+   Data Science       1.00      1.00      1.00         5
+             HR       0.75      1.00      0.86         3
+      Marketing       1.00      1.00      1.00         2
+Web Development       1.00      0.83      0.91         6
+
+       accuracy                           0.94        16
+      macro avg       0.94      0.96      0.94        16
+   weighted avg       0.95      0.94      0.94        16
+
+2026-02-16 16:28:48,029 - INFO - Test Accuracy: 0.9375
+2026-02-16 16:28:48,029 - INFO - Predicted Category:Web Development
+2026-02-16 16:30:38,053 - INFO - Loading dataset
+2026-02-16 16:30:38,056 - INFO - Dataset loaded successfully
+2026-02-16 16:30:38,057 - INFO - Text preprocessing completed
+2026-02-16 16:30:38,065 - INFO - Model training completed
+2026-02-16 16:30:38,065 - INFO - Classification Report:
+2026-02-16 16:30:38,068 - INFO - 
+                 precision    recall  f1-score   support
+
+   Data Science       1.00      1.00      1.00         5
+             HR       0.75      1.00      0.86         3
+      Marketing       1.00      1.00      1.00         2
+Web Development       1.00      0.83      0.91         6
+
+       accuracy                           0.94        16
+      macro avg       0.94      0.96      0.94        16
+   weighted avg       0.95      0.94      0.94        16
+
+2026-02-16 16:30:38,068 - INFO - Test Accuracy: 0.9375
+2026-02-16 16:30:38,069 - INFO - Predicted Category:Web Development
